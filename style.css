@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    font-family: sans;
+}
+
+body {
+    margin: 0;
+    background-color: #40485a;
+}
+
+/* Header */
+
+header {
+    background-color: #442363;
+    padding-top: 1em;
+}
+
+header h1 {
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* Social Media Icons */
+
+#socialMediaButtons {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#socialMediaButtons a {
+    width: 64px;
+    height: 64px;
+    margin: 4px;
+    display: block;
+    float: left;
+    color: var(--socialMediaColor);
+    fill: var(--socialMediaColor);
+    border-radius: 100%;
+    transition: background-color 0.8s,
+        transform 0.8s ease-out;
+}
+
+#socialMediaButtons i {
+    line-height: 64px;
+    font-size: 48px;
+}
+
+#socialMediaButtons a:hover {
+    background: var(--socialMediaColor);
+    color: white;
+    fill: white;
+}
+
+#socialMediaButtons .github {
+    --socialMediaColor: #171515;
+}
+
+#socialMediaButtons .email {
+    --socialMediaColor: #EA4335;
+}
+
+#socialMediaButtons .linkedin {
+    --socialMediaColor: #0a66c2;
+}
+
+/* Page Content */
+
+.content {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.content > div {
+    margin: 8px 16px;
+    background-color: #ddd;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.boxTitle {
+    display: flex;
+    align-items: center;
+}
+
+.boxTitle h2 {
+    width: fit-content;
+    margin: 8px;
+}
+
+.boxTitle .titleButtons {
+    float: right;
+    margin-left: auto;
+}
+
+.boxTitle .titleButtons a {
+    color: black;
+    font-size: 26px;
+    padding: 3px;
+    float: right
+}
+
+
