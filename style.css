@@ -57,6 +57,10 @@ header h1 {
     fill: white;
 }
 
+#socialMediaButtons a {
+    --socialMediaColor: black;
+}
+
 #socialMediaButtons .github {
     --socialMediaColor: #171515;
 }
@@ -90,7 +94,7 @@ header h1 {
 
 .boxTitle h2 {
     width: fit-content;
-    margin: 8px;
+    margin: 8px 0;
 }
 
 .boxTitle .titleButtons {
@@ -105,4 +109,10 @@ header h1 {
     float: right
 }
 
-
+.exampleImage {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
