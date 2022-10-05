@@ -37,19 +37,19 @@ foreach (scandir(".") as $dir) {
         echo "<div><div class=\"boxTitle\"><h2>Lab $number</h2></div>";
         // Add tutorial files for a lab
         foreach (scandir($dir) as $file) {
-            if (substr($file, 0, 8) == "tutorial" && substr($file, -4) == ".php") {
+            if (substr($file, 0, 8) == "tutorial" && (substr($file, -4) == ".php" || substr($file, -5) == ".html")) {
                 if (strlen($file) > 12) {
                     $title = "Tutorial " . substr($file, 8, 1) . ": " . str_replace("-", " ", substr($file, 10, -4));
                 }
                 else {
-                    $title = "Totorial";
+                    $title = "Tutorial";
                 }
                 echo "<p><a href=\"$dir/$file\">$title</a></p>";
             }
         }
         // Add task files for a lab
         foreach (scandir($dir) as $file) {
-            if (substr($file, 0, 4) == "task" && substr($file, -4) == ".php") {
+            if (substr($file, 0, 4) == "task" && (substr($file, -4) == ".php" || substr($file, -5) == ".html")) {
                 $title = "Task " . substr($file, 4, 1) . ": " . str_replace("-", " ", substr($file, 6, -4));
                 echo "<p><a href=\"$dir/$file\">$title</a></p>";
             }
