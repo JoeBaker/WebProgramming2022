@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <title>Joe Baker @ BU</title>
     <meta name="author" content="Joe Baker">
-    <meta name="description" content="Joe Baker's Website">
-    <meta name="keywords" content="Joe Baker, Joe Baker BU, Joe Baker's Website, Joe Baker Bournemouth University, Joe Baker BU Computing, S5411045">
+    <meta name="description" content="Joe Baker Web Programming Labs 2022">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <link href="fontawesome/all.css" rel="stylesheet">
@@ -39,7 +38,7 @@ foreach (scandir(".") as $dir) {
         foreach (scandir($dir) as $file) {
             if (substr($file, 0, 8) == "tutorial" && (substr($file, -4) == ".php" || substr($file, -5) == ".html")) {
                 if (strlen($file) > 12) {
-                    $title = "Tutorial " . substr($file, 8, 1) . ": " . str_replace("-", " ", substr($file, 10, -4));
+                    $title = "Tutorial " . substr($file, 8, 1) . ": " . str_replace("-", " ", explode(".", substr($file, 10))[0]);
                 }
                 else {
                     $title = "Tutorial";
@@ -50,7 +49,7 @@ foreach (scandir(".") as $dir) {
         // Add task files for a lab
         foreach (scandir($dir) as $file) {
             if (substr($file, 0, 4) == "task" && (substr($file, -4) == ".php" || substr($file, -5) == ".html")) {
-                $title = "Task " . substr($file, 4, 1) . ": " . str_replace("-", " ", substr($file, 6, -4));
+                $title = "Task " . substr($file, 4, 1) . ": " . str_replace("-", " ", explode(".", substr($file, 6))[0]);
                 echo "<p><a href=\"$dir/$file\">$title</a></p>";
             }
         }

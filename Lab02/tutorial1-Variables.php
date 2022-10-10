@@ -12,10 +12,15 @@ echo "${celcius}° Celcius is ${fahrenheit}° Fahrenheit<br>";
 <ul>
     <?php
     $arr = array("Paul", "Deniz", "Bob", "Nan", "Holly");
+    /*
     $i = 1;
     foreach ($arr as $value) {
         echo "<li>Person $i: $value</li>";
         $i++;
     }
-    ?>
+    */
+    for ($i = 0; $i < 5; $i++) {
+        ?>
+        <li>Person <?php echo $i+1; ?>: <?php echo $arr[$i] ?></li>
+    <?php } ?>
 </ul>
