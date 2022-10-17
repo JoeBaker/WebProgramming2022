@@ -22,10 +22,10 @@ isSetAndEmpty($_GET);
 </style>
 
 <?php
+$data = !empty($_POST) ? $_POST : $_GET;
 echo "<p>Username is ";
 isSetAndEmpty($data["username"]);
 echo "</p>";
-$data = !empty($_POST) ? $_POST : $_GET;
 if ($data["username"]) {
     echo "Your username is: " . $data["username"] . "<br>";
 }
