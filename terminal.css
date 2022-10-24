@@ -19,3 +19,12 @@ input, button {
 .comment {
     color: #528d4c;
 }
+
+a:link {
+    text-decoration: none;
+    color: #544efd;
+}
+
+a:visited {
+    color: #9800be;
+}
