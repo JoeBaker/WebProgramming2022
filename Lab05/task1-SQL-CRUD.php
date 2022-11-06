@@ -29,7 +29,7 @@
      * and left unread.
      */
 
-    require "../wpassignment/include/sql.php";
+    require "../wpassignment/include/utils.php";
     $rootPath = "../wpassignment/";
 
     try {

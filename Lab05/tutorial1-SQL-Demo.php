@@ -6,7 +6,7 @@
 // the basics covered in it though.
 
 // Use the login function I made for the assignment
-require "../wpassignment/include/sql.php";
+require "../wpassignment/include/utils.php";
 $rootPath = "../wpassignment/";
 
 function showResults($table) { ?>
