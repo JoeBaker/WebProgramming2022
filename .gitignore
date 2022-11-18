@@ -2,4 +2,4 @@
 .vscode/
 .directory
 *.json
-wpassignment
+sqlCredentials.json

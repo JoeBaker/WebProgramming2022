@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 5 - Tutorial - SQL CRUD</h3>
 <p class="comment">
 <?php
@@ -29,8 +29,7 @@
      * and left unread.
      */
 
-    require "../wpassignment/include/utils.php";
-    $rootPath = "../wpassignment/";
+    require "../utils.php";
 
     try {
         // Connect to the database

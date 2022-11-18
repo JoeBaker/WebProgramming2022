@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 4 - Dictionary</h3>
 
 <?php

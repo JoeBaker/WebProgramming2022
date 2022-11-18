@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 2 - Task 2 - HTML Tables and PHP</h3>
 <?php
 $table = [

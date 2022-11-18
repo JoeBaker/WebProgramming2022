@@ -58,7 +58,7 @@ header h1 {
 }
 
 #socialMediaButtons a {
-    --socialMediaColor: black;
+    --socialMediaColor: white;
 }
 
 #socialMediaButtons .github {

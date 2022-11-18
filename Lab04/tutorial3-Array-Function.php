@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 4 - Tutorial 3 - Array Merge Function</h3>
 <?php
 function merge($array1, $array2)

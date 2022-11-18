@@ -1,13 +1,12 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 5 - Tutorial - SQL Demo</h3>
 <?php
 // Yes, a lot of the stuff is not what the guide says to do,
 // but I cant be bothered to do all that, this does all of
 // the basics covered in it though.
 
-// Use the login function I made for the assignment
-require "../wpassignment/include/utils.php";
-$rootPath = "../wpassignment/";
+// Use the sql connect function I made for the assignment
+require "../utils.php";
 
 function showResults($table) { ?>
     <table>

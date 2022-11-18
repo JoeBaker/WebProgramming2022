@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 3 - Product Management Basics</h3>
 
 <?php

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 2 - Task 1 - Arithmetic</h3>
 <?php
 $value = 5;

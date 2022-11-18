@@ -16,14 +16,14 @@
     <header>
         <h1>Joe Baker<br />Web Programming</h1>
         <div id="socialMediaButtons">
-            <a href="index.html" class="home" title="Home">
-                <i class="fa-solid fa-house"></i></a>
             <a href="mailto:s5411045@bournemouth.ac.uk" class="email" title="Email">
                 <i class="fa-regular fa-envelope"></i></a>
             <a href="https://github.com/JoeBlakeB/" class="github" title="GitHub">
                 <i class="fa-brands fa-github"></i></a>
             <a href="https://www.linkedin.com/in/joeblakeb/" class="linkedin" title="LinkedIn">
                 <i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="portfolio" class="edge edge-right" title="Portfolio">
+            <i class="fa-solid fa-file"></i></a>
         </div>
     </header>
     <div class="content">

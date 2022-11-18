@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="/terminal.css" />
-<h3>Lab 5 - Tutorial 3 - Creating a Class</h3>
+<link rel="stylesheet" href="../terminal.css" />
+<h3>Lab 6 - Tutorial 3 - Creating a Class</h3>
 <?php
 
 interface iAnimal {

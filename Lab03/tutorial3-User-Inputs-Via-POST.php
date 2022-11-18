@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 3 - Tutorial 3 - Sending User Inputs Via POST</h3>
 
 <?php

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 2 - Tutorial 1 - Variables</h3>
 <?php
 $mi = 70;

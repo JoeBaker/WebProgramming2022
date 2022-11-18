@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 3 - Tutorial 1 - Functions With Multiple Arguments</h3>
 <?php
 function welcomeStudent($name, $level="Level 5") {

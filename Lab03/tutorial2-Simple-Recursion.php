@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 3 - Tutorial 2 - Simple Recursion Exercise</h3>
 <?php
 function recursiveFactorial($number) {

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 3 - Tutorial 4 - Sending User Inputs Via GET</h3>
 
 <?php

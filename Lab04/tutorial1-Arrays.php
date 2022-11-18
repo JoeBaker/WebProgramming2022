@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 4 - Tutorial 1 - Arrays</h3>
 <?php
 $numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

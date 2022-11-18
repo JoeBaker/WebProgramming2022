@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 4 - Tutorial 2 - Array Merge</h3>
 <?php
 $array1 = [0, 1, 2, 3, 4, 5];

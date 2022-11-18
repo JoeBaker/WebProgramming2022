@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="/terminal.css" />
-<h3>Lab 5 - Tutorial 1 - Creating a Class</h3>
+<link rel="stylesheet" href="../terminal.css" />
+<h3>Lab 6 - Tutorial 1 - Creating a Class</h3>
 <?php
 
 class Student {

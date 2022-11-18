@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/terminal.css" />
+<link rel="stylesheet" href="../terminal.css" />
 <h3>Lab 2 - Tutorial 2 - Control Structures</h3>
 <?php
 $a = 1;

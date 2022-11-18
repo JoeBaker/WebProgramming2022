@@ -1,9 +1,8 @@
-<link rel="stylesheet" href="/terminal.css" />
-<h3>Lab 5 - Tutorial 2 - Implement a Message Board</h3>
+<link rel="stylesheet" href="../terminal.css" />
+<h3>Lab 6 - Tutorial 2 - Implement a Message Board</h3>
 <?php
 
-require "../wpassignment/include/utils.php";
-$rootPath = "../wpassignment/";
+require "../utils.php";
 
 class Message
 {
